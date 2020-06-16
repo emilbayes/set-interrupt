@@ -1,0 +1,29 @@
+{
+  "name": "set-interrupt",
+  "version": "0.0.0",
+  "description": "Interruptible timer",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/set-interrupt.git"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/set-interrupt/issues"
+  },
+  "homepage": "https://github.com/emilbayes/set-interrupt#readme"
+}
