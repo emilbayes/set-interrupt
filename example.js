@@ -1,6 +1,7 @@
 var { setInterrupt, clearInterrupt } = require('set-interrupt')
 
 var i = setInterrupt(function (err, val) {
+  if (err) throw err
   console.log('Hello world')
 }, 1000)
 
