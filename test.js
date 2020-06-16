@@ -98,3 +98,8 @@ test('.interrupt twice', function (assert) {
   i.interrupt(null, true)
   i.interrupt(null, true)
 })
+
+test('clearInterrupt null', function (assert) {
+  clearInterrupt(null)
+  assert.end()
+})

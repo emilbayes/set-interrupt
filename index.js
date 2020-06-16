@@ -11,7 +11,7 @@ function setInterrupt (cb, timeout) {
 }
 
 function clearInterrupt (interrupt, err, val) {
-  if (interrupt.interrupt) return interrupt.interrupt(err, val)
+  if (interrupt && interrupt.interrupt) return interrupt.interrupt(err, val)
 }
 
 module.exports = {
