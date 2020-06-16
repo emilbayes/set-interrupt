@@ -1,6 +1,6 @@
 {
   "name": "set-interrupt",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Interruptible timer",
   "main": "index.js",
   "publishConfig": {
